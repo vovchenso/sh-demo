@@ -1,0 +1,9 @@
+{
+  "name": "solutions-hamburg-demo",
+  "description": "Demo app for solutions.hamburg",
+  "version": "0.0.1",
+  "scripts": {
+    "postinstall": "cd packages/app && npm install",
+    "start": "cd packages/app && npm start"
+  }
+}

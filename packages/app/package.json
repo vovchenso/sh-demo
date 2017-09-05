@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Demo application which contains all other widgets",
   "main": "index.js",
+  "scripts": {
+    "start": "gulp dev"
+  },
   "keywords": [
     "react",
     "demo",
@@ -23,7 +26,7 @@
     "react-dom": "^15.6.1",
     "solutions-hamburg-common": "^0.1.x",
     "solutions-hamburg-core": "^0.1.x",
-    "solutions-hamburg-moduleX": "^0.1.x",
-    "solutions-hamburg-moduleY": "^0.1.x"
+    "solutions-hamburg-modulex": "^0.1.x",
+    "solutions-hamburg-moduley": "^0.1.x"
   }
 }

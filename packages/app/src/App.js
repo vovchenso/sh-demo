@@ -1,6 +1,6 @@
 import React from 'react';
-import ModuleX from 'solutions-hamburg-moduleX';
-import ModuleY from 'solutions-hamburg-moduleY';
+import ModuleX from 'solutions-hamburg-modulex';
+import ModuleY from 'solutions-hamburg-moduley';
 
 import './App.less';
 
