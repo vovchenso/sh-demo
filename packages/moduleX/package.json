@@ -1,0 +1,40 @@
+{
+  "name": "solutions-hamburg-moduleX",
+  "version": "0.1.0",
+  "description": "Test moduleX",
+  "main": "dist/index.js",
+  "keywords": [
+    "react"
+  ],
+  "scripts": {
+    "upload": "gulp release && npm pack && npm publish $npm_package_name-$npm_package_version.tgz && rm *.tgz",
+    "clean": "rm -rf dist tmp"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:vovchenso/sh-demo.git"
+  },
+  "devDependencies": {
+    "immutable": "^3.8.1",
+    "solutions-hamburg-common": "^0.1.x",
+    "solutions-hamburg-core": "^0.1.x",
+    "solutions-hamburg-utils": "^0.1.x",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "immutable": "^3.8.1",
+    "solutions-hamburg-common": "^0.1.x",
+    "solutions-hamburg-core": "^0.1.x",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2"
+  }
+}

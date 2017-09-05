@@ -1,0 +1,29 @@
+{
+  "name": "solutions-hamburg-core",
+  "version": "0.1.0",
+  "description": "Core utils",
+  "main": "dist/index.js",
+  "keywords": [
+    "react",
+    "core"
+  ],
+  "scripts": {
+    "upload": "gulp release && npm pack && npm publish $npm_package_name-$npm_package_version.tgz && rm *.tgz",
+    "clean": "rm -rf dist tmp"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:vovchenso/sh-demo.git"
+  },
+  "devDependencies": {
+    "solutions-hamburg-utils": "^0.1.x",
+    "redux": "^3.7.2"
+  },
+  "dependencies": {
+    "eventbusjs": "^0.2.0"
+  },
+  "peerDependencies": {
+    "redux": "^3.7.2"
+  }
+}

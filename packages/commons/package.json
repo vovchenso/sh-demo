@@ -1,0 +1,36 @@
+{
+  "name": "solutions-hamburg-common",
+  "version": "0.1.0",
+  "description": "Common components",
+  "main": "dist/index.js",
+  "keywords": [
+    "react",
+    "common"
+  ],
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "upload": "gulp release && npm pack && npm publish $npm_package_name-$npm_package_version.tgz && rm *.tgz",
+    "clean": "rm -rf dist tmp"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:vovchenso/sh-demo.git"
+  },
+  "devDependencies": {
+    "prop-types": "^15.5.10",
+    "solutions-hamburg-utils": "^0.1.x"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "classnames": "^2.2.5"
+  },
+  "peerDependencies": {
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}

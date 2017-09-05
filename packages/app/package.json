@@ -1,0 +1,29 @@
+{
+  "name": "solutions-hamburg-demo-app",
+  "version": "0.1.0",
+  "description": "Demo application which contains all other widgets",
+  "main": "index.js",
+  "keywords": [
+    "react",
+    "demo",
+    "container project"
+  ],
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:vovchenso/sh-demo.git"
+  },
+  "dependencies": {
+    "solutions-hamburg-utils": "^0.1.x",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "solutions-hamburg-common": "^0.1.x",
+    "solutions-hamburg-core": "^0.1.x",
+    "solutions-hamburg-moduleX": "^0.1.x",
+    "solutions-hamburg-moduleY": "^0.1.x"
+  }
+}
