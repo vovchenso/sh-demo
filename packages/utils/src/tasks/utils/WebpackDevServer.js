@@ -22,7 +22,8 @@ const runWebpackDevServer = ({ host, port, sourceFile }, customConfig) => {
       hot: true,
       historyApiFallback: true,
       stats: { colors: true },
-      noInfo: true
+      noInfo: true,
+      disableHostCheck: true
     });
   } catch (error) {
     gutil.log('webpack dev server config error:', error);
