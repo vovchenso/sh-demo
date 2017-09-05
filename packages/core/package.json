@@ -1,6 +1,6 @@
 {
   "name": "solutions-hamburg-core",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Core utils",
   "main": "dist/index.js",
   "keywords": [
@@ -16,14 +16,9 @@
     "type": "git",
     "url": "ssh://git@github.com:vovchenso/sh-demo.git"
   },
-  "devDependencies": {
-    "solutions-hamburg-utils": "^0.1.x",
-    "redux": "^3.7.2"
-  },
   "dependencies": {
-    "eventbusjs": "^0.2.0"
-  },
-  "peerDependencies": {
+    "eventbusjs": "^0.2.0",
+    "solutions-hamburg-utils": "^0.1.x",
     "redux": "^3.7.2"
   }
 }

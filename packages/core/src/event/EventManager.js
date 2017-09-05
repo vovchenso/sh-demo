@@ -1,7 +1,7 @@
 import EventBus from 'eventbusjs';
 import Events from './EventDefinitions';
 
-export default  {
+export default {
 
   Events,
 

@@ -1,5 +1,4 @@
 import { createStore, applyMiddleware, compose } from 'redux';
-import { createLogger } from 'redux-logger';
 
 const isProductionOrTest = (process.env.NODE_ENV === 'production' || process.env.NODE_ENV === 'test');
 

@@ -27,7 +27,12 @@ module.exports = (options = {}) => {
   gulp.task('dev', [], () => {
     runSequence('clean', 'build', () => {
       webPackDevServer(
-        Object.assign({}, defaultServerOptions, options.port && { port: options.port }),
+        Object.assign(
+          {},
+          defaultServerOptions,
+          options.port && { port: options.port },
+          options.host && { host: options.host }
+        ),
         defaultConfig
       );
     });
