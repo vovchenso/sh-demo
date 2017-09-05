@@ -35,7 +35,7 @@ gulp
 
 ## Main application
 
-For main application we also have a shortcut from the root
+For main application (`app`) we also have a shortcut from the root of repository
 ```
 npm install
 npm start
