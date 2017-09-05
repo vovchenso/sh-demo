@@ -1,6 +1,6 @@
 {
   "name": "solutions-hamburg-common",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Common components",
   "main": "dist/index.js",
   "keywords": [
@@ -19,13 +19,11 @@
     "type": "git",
     "url": "ssh://git@github.com:vovchenso/sh-demo.git"
   },
-  "devDependencies": {
-    "prop-types": "^15.5.10",
-    "solutions-hamburg-utils": "^0.1.x"
-  },
   "dependencies": {
+    "classnames": "^2.2.5",
+    "prop-types": "^15.5.10",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "classnames": "^2.2.5"
+    "solutions-hamburg-utils": "^0.1.x"
   }
 }
