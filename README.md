@@ -29,7 +29,7 @@ We can run `app`, `commons`, `moduleX` and `moduleY` from their directories
 ```
 cd /package/<applicationName>/
 
-npm instal
+npm install
 gulp
 ```
 
